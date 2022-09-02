@@ -20,8 +20,10 @@
   --background-color: #002b36;
   --background2-color: #073642;
   --button-text-color: var(--text-color);
-  --button-color: #268bd2;
+  --button-color: var(--link-color);
   --background-border-color: var(--button-color);
+  --link-color: #268bd2;
+  --visited-link-color: #d33682;
   --text-color: #eee8d5;
   --highlight-text-color: #fdf6e3;
   --ease: cubic-bezier(0.68, -0.55, 0.27, 1.55);
@@ -60,4 +62,22 @@ button:hover,
   border: 5px solid var(--background-border-color);
   border-radius: 10px;
   overflow: scroll;
+}
+
+a.link:link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a.link:visited {
+  color: var(--visited-link-color);
+  text-decoration: none;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
+
+a.link:active {
+  text-decoration: underline;
 }

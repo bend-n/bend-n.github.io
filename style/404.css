@@ -1,0 +1,12 @@
+.header {
+  font-size: 5em;
+  color: #dc322f !important;
+}
+
+#inner_column {
+  height: 40% !important;
+}
+
+p {
+  font-size: 1.5em;
+}
