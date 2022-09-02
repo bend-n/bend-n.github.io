@@ -14,13 +14,6 @@ customElements.define(
       const style = `
       .screenshot {
         max-width: 350px;
-        display: inline-block;
-        transition: var(--transition-length) var(--ease) all;
-        margin: 0 10px;
-      }
-      
-      .screenshot:hover {
-        transform: scale(1.09);
       }
       
       .screenshot_list {

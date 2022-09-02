@@ -19,6 +19,7 @@
 :root {
   --background-color: #002b36;
   --background2-color: #073642;
+  --button-text-color: var(--text-color);
   --button-color: #268bd2;
   --background-border-color: var(--button-color);
   --text-color: #eee8d5;
@@ -40,7 +41,7 @@ button,
   text-decoration: none;
   display: inline-block;
   border: none;
-  color: var(--text-color);
+  color: var(--button-text-color);
   transition: var(--transition-length) var(--ease) all;
 }
 button:hover,

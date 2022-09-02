@@ -1,0 +1,32 @@
+@import "/style/bouncy-screenshots.css";
+
+#wrapper {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-image: repeating-linear-gradient(
+      #eee8d5 0 5px,
+      transparent 5px 100%
+    ),
+    repeating-linear-gradient(90deg, #eee8d5 0 5px, transparent 5px 100%);
+  background-size: 30px 30px;
+  background-color: #fdf6e3 !important;
+}
+
+#inner_column {
+  width: 900px;
+  border: 5px solid #dc322f;
+  border-radius: 10px;
+}
+
+:root {
+  --text-color: #657b83 !important;
+  --highlight-text-color: #586e75 !important;
+  --background-color: #eee8d5 !important;
+  --background2-color: #fdf6e3 !important;
+  --button-text-color: #eee8d5 !important;
+}
+
+.button_list {
+  padding: 15px;
+  text-align: center;
+}

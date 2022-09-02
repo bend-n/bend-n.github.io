@@ -1,0 +1,14 @@
+img.screenshot {
+  margin: 0 10px;
+  border-radius: 15px;
+  border: 5px solid var(--background-color);
+  transition: var(--transition-length) var(--ease) all;
+}
+
+img.screenshot:hover {
+  transform: scale(1.09);
+}
+
+.screenshot_list {
+  padding: 20px 0;
+}

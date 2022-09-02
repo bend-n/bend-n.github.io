@@ -1,3 +1,5 @@
+@import "/style/bouncy-screenshots.css";
+
 .header {
   font-size: 2em;
 }
@@ -13,13 +15,4 @@
 .button_list {
   padding: 15px;
   text-align: center;
-}
-
-.screenshot {
-  border-radius: 15px;
-  border: 5px solid var(--background-color);
-}
-
-.screenshot_list {
-  padding: 20px 0;
 }

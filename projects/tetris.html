@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bendn - tetris</title>
+    <script
+      src="https://kit.fontawesome.com/be4f130556.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/components/backbutton.js"></script>
+    <script src="/components/downloadbutton.js"></script>
+    <script src="/components/screenshotlist.js"></script>
+
+    <link rel="stylesheet" href="/style/tetris.css" />
+    <link rel="stylesheet" href="/style/styles.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <back-button></back-button>
+      <h1 class="header">tetris</h1>
+      <div id="inner_column">
+        <div class="button_list">
+          <download-button game="tetris"></download-button>
+          <a class="button" href="https://bend-n.github.io/tetris">
+            <i class="fa-solid fa-circle-play"></i> play
+          </a>
+          <a class="button" href="https://bendn.itch.io/tetris">
+            <i class="fa-brands fa-itch-io"></i> view
+          </a>
+        </div>
+        <p>I made this one on the spur of a moment.</p>
+        <screenshot-list
+          images="/img/tetris/ss1.png /img/tetris/ss2.png"
+        ></screenshot-list>
+      </div>
+    </div>
+  </body>
+</html>
