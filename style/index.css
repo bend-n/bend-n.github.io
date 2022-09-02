@@ -1,0 +1,12 @@
+.button_list {
+  padding: 15px;
+  text-align: center;
+}
+
+.button:hover {
+  margin: 0 2px;
+}
+
+.header {
+  font-size: 3em;
+}

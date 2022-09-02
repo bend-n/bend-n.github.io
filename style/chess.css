@@ -1,0 +1,25 @@
+.header {
+  font-size: 2em;
+}
+
+#wrapper {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-size: 30px 30px;
+  background: repeating-conic-gradient(#002b36 0% 25%, #073642 0% 50%) 50% /
+    100px 100px;
+}
+
+.button_list {
+  padding: 15px;
+  text-align: center;
+}
+
+.screenshot {
+  border-radius: 15px;
+  border: 5px solid var(--background-color);
+}
+
+.screenshot_list {
+  padding: 20px 0;
+}

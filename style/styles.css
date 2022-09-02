@@ -1,0 +1,62 @@
+.header {
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, system-ui;
+  color: var(--highlight-text-color);
+}
+
+#wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  overflow: scroll;
+}
+
+:root {
+  --background-color: #002b36;
+  --background2-color: #073642;
+  --button-color: #268bd2;
+  --background-border-color: var(--button-color);
+  --text-color: #eee8d5;
+  --highlight-text-color: #fdf6e3;
+  --ease: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  --transition-length: 0.25s;
+}
+
+button,
+.button {
+  border-radius: 5px;
+  background-color: var(--button-color);
+  padding: 0 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  min-width: 45px;
+  line-height: 45px;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  color: var(--text-color);
+  transition: var(--transition-length) var(--ease) all;
+}
+button:hover,
+.button:hover {
+  transform: scale(1.09);
+}
+
+#inner_column {
+  padding: 5px 20px;
+  background-color: var(--background2-color);
+  min-height: 300px;
+  height: 82%;
+  margin: 0 auto;
+  align-content: center;
+  width: 82%;
+  border: 5px solid var(--background-border-color);
+  border-radius: 10px;
+  overflow: scroll;
+}
